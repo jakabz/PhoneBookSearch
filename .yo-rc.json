@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "onprem19",
+    "version": "1.11.0",
+    "libraryName": "spfx-phone-book-webpart",
+    "libraryId": "d081e615-c894-49b9-abc9-eb9b1cdede8e",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "58d57bf8-44b9-4f0c-891e-d206b73c064e",
+  "alias": "PhoneBookSearchWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "PhoneBook Search" },
+    "description": { "default": "Desc" },
+    "officeFabricIconFontName": "ProfileSearch",
+    "properties": {
+      "wpTitle": "PhoneBook Search",
+      "listData": [],
+      "position": "rightCenter"
+    }
+  }]
+}

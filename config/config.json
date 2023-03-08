@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "phone-book-search-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/phoneBookSearch/PhoneBookSearchWebPart.js",
+          "manifest": "./src/webparts/phoneBookSearch/PhoneBookSearchWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PhoneBookSearchWebPartStrings": "lib/webparts/phoneBookSearch/loc/{locale}.js"
+  }
+}
